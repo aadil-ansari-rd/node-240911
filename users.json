@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "first_name": "Fleur",
+        "last_name": "Lackey",
+        "email": "flackey0@msu.edu",
+        "gender": "Female",
+        "ip_address": "151.68.91.216"
+    },
+    {
+        "id": 2,
+        "first_name": "Hallsy",
+        "last_name": "Measen",
+        "email": "hmeasen1@vimeo.com",
+        "gender": "Male",
+        "ip_address": "83.96.166.113"
+    },
+    {
+        "id": 3,
+        "first_name": "Gan",
+        "last_name": "Naulls",
+        "email": "gnaulls2@photobucket.com",
+        "gender": "Male",
+        "ip_address": "188.168.37.234"
+    },
+    {
+        "id": 4,
+        "first_name": "Burr",
+        "last_name": "Rosiello",
+        "email": "brosiello3@biblegateway.com",
+        "gender": "Male",
+        "ip_address": "81.169.239.130"
+    },
+    {
+        "id": 5,
+        "first_name": "Traver",
+        "last_name": "Leroy",
+        "email": "tleroy4@photobucket.com",
+        "gender": "Male",
+        "ip_address": "95.202.211.1"
+    },
+    {
+        "id": 6,
+        "first_name": "Hiram",
+        "last_name": "Vakhonin",
+        "email": "hvakhonin5@europa.eu",
+        "gender": "Male",
+        "ip_address": "212.9.169.243"
+    },
+    {
+        "id": 7,
+        "first_name": "Tildi",
+        "last_name": "Warrender",
+        "email": "twarrender6@hao123.com",
+        "gender": "Female",
+        "ip_address": "42.104.40.46"
+    },
+    {
+        "id": 8,
+        "first_name": "Shannan",
+        "last_name": "Ailward",
+        "email": "sailward7@ifeng.com",
+        "gender": "Male",
+        "ip_address": "29.189.114.100"
+    },
+    {
+        "id": 9,
+        "first_name": "Prudi",
+        "last_name": "Grasner",
+        "email": "pgrasner8@yolasite.com",
+        "gender": "Female",
+        "ip_address": "40.78.73.163"
+    },
+    {
+        "id": 10,
+        "first_name": "Keene",
+        "last_name": "Gurney",
+        "email": "kgurney9@zimbio.com",
+        "gender": "Genderfluid",
+        "ip_address": "23.67.147.53"
+    }
+]
