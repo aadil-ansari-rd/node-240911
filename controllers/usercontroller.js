@@ -26,6 +26,7 @@ function addUser(req, res){
     try{
         req.body.id= users.length +1;
         users.push(req.body);
+        console.log(req.body, 'req.body')
         fs.writeFile('users.json', JSON.stringify(users), (err)=>{
             if(err){
                 console.log(err);
@@ -38,8 +39,41 @@ function addUser(req, res){
         console.log(err);
     }
 }
+
+function deleteUser(req,res){
+    let id = parseInt(req.params.id);
+    let index = users.findIndex((user)=>user.id===id);
+    users.splice(index, 1);
+    fs.writeFile('users.json',JSON.stringify(users),(err)=>{
+        if(err){
+            console.log("Problem Occured");
+
+        }else{
+            console.log("User Deleted");
+            res.end("User Deleted");
+        }
+    })
+}
+
+function editUser(req, res){
+    let id = parseInt(req.params.id);
+    let index = users.findIndex((user)=>user.id===id);
+    users[index].first_name = "Ram Lal";
+    fs.writeFile('users.json', JSON.stringify(users),(err)=>{
+        if(err){
+            console.log("Problem Occured");
+
+        }else{
+            console.log("User Updated");
+            res.end("User Updated");
+        }
+    })
+}
+
 module.exports = {
     getAllUsers ,
     getUser,
-    addUser
+    addUser,
+    editUser,
+    deleteUser
 }
